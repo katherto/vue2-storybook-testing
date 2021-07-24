@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "storybook:build": "vue-cli-service storybook:build -c config/storybook",
-    "storybook": "vue-cli-service storybook:serve -p 6006 -c config/storybook"
+    "dev": "vue-cli-service serve",
+    "storybook": "vue-cli-service storybook:serve -p 6006 -c config/storybook",
+    "storybook:build": "vue-cli-service storybook:build -c config/storybook"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -24,7 +24,9 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "vue-cli-plugin-storybook": "~2.1.0",
-    "vue-template-compiler": "^2.6.11"
+    "vue-cli-plugin-windicss": "~1.0.2",
+    "vue-template-compiler": "^2.6.11",
+    "windicss-webpack-plugin": "^1.4.0"
   },
   "eslintConfig": {
     "root": true,

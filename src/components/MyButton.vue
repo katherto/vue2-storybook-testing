@@ -1,14 +1,19 @@
 <template>
   <button class="button is-primary" @click="onClick">
     <!-- @slot default inner button content -->
-    <slot></slot>
+    <slot>{{ label }}</slot>
   </button>
 </template>
 
 <script>
 export default {
-  name: 'my-button',
-
+  name: "MyButton",
+  props: {
+    label: {
+      type: String,
+      default: undefined,
+    },
+  },
   methods: {
     onClick() {
       /**
@@ -16,10 +21,10 @@ export default {
        *
        * @event click
        */
-      this.$emit('click')
-    }
-  }
-}
+      this.$emit("click");
+    },
+  },
+};
 </script>
 
 <style scoped>
