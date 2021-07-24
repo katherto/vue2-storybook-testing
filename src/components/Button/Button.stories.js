@@ -1,4 +1,4 @@
-import MyButton from "../components/Button/Button.vue";
+import MyButton from "./Button.vue";
 
 export default {
   title: "UI Elements/Button",
@@ -20,4 +20,4 @@ const Template = (args, { argTypes }) => ({
 });
 
 export const TestButton = Template.bind({});
-TestButton.args = { label: "Test Button", disabled: true };
+TestButton.args = { label: "Test Button", disabled: false };
