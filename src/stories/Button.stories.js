@@ -20,4 +20,4 @@ const Template = (args, { argTypes }) => ({
 });
 
 export const TestButton = Template.bind({});
-TestButton.args = { label: "Yes I did" };
+TestButton.args = { label: "Test Button", disabled: true };

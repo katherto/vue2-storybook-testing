@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-20 ml-20">
+  <div class="mt-30 ml-30">
     <Button v-bind="args" />
   </div>
 </template>
@@ -9,6 +9,7 @@ import Button from "./components/Button/Button.vue";
 
 const buttonArgs = {
   label: "Hopefully this works",
+  // disabled: true,
 };
 
 export default {
