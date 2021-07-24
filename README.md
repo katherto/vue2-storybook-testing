@@ -1,24 +1,19 @@
 # test-storybook
 
 ## Project setup
+
 ```
-npm install
+npm ci
 ```
 
 ### Compiles and hot-reloads for development
+
 ```
-npm run serve
+npm run dev
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Compiles and hot-reloads for Storybook development
 
-### Lints and fixes files
 ```
-npm run lint
+npm run storybook
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
